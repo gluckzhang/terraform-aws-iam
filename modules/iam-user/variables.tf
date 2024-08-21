@@ -92,3 +92,11 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "account" {
+  type = string
+}
+
+variable "region" {
+  type = string
+}
